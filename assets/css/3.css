@@ -1,0 +1,459 @@
+body {
+    margin: 1em 2em;
+    background-color: gray;
+}
+
+section {
+    padding: 1.5em;
+    position: absolute;
+}
+
+
+/* For Horizontal Flags */
+
+#top {
+    width: 8.5em;
+    height: 2.1em;
+    border: 0.05em solid black;
+}
+
+#middle {
+    width: 8.5em;
+    height: 2.1em;
+    border-bottom: 0.05em solid black;
+    border-left: 0.05em solid black;
+    border-right: 0.05em solid black;
+}
+
+#bottom {
+    width: 8.5em;
+    height: 2.1em;
+    border-bottom: 0.05em solid black;
+    border-left: 0.05em solid black;
+    border-right: 0.05em solid black;
+}
+
+
+/* For Vertical Flags */
+
+#left {
+    width: 2.75em;
+    height: 6.5em;
+    border: 0.05em solid black;
+    float: left;
+}
+
+#center {
+    width: 2.75em;
+    height: 6.5em;
+    border-bottom: 0.05em solid black;
+    border-top: 0.05em solid black;
+    border-right: 0.05em solid black;
+    float: left;
+}
+
+#right {
+    width: 2.75em;
+    height: 6.5em;
+    border-bottom: 0.05em solid black;
+    border-top: 0.05em solid black;
+    border-right: 0.05em solid black;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* Flags Color and Desgin */
+
+
+/* Ethiopia */
+
+#Ethiopia {
+    margin: 2em;
+}
+
+#Ethiopia #top {
+    background-color: green;
+}
+
+#Ethiopia #middle {
+    background-color: yellow;
+}
+
+#Ethiopia #bottom {
+    background-color: red;
+}
+
+#eth {
+    width: 2.6em;
+    height: 2.6em;
+    border-radius: 100%;
+    border: hidden;
+    margin-left: 3em;
+}
+
+
+/* Germany */
+
+#Germany {
+    margin: 2em 16.5em;
+}
+
+#Germany #top {
+    background-color: black;
+}
+
+#Germany #middle {
+    background-color: red;
+}
+
+#Germany #bottom {
+    background-color: yellow;
+}
+
+
+/* Gabon */
+
+#Gabon {
+    margin: 2em 31em;
+}
+
+#Gabon #top {
+    background-color: green;
+}
+
+#Gabon #middle {
+    background-color: yellow;
+}
+
+#Gabon #bottom {
+    background-color: steelblue;
+}
+
+
+/* Bolivia */
+
+#Bolivia {
+    margin: 2em 45.5em;
+}
+
+#Bolivia #top {
+    background-color: red;
+}
+
+#Bolivia #middle {
+    background-color: yellow;
+}
+
+#Bolivia #bottom {
+    background-color: green;
+}
+
+
+/* France */
+
+#France {
+    margin: 12.1em 2em;
+}
+
+#France #left {
+    background-color: blue;
+}
+
+#France #center {
+    background-color: white;
+}
+
+#France #right {
+    background-color: red;
+}
+
+
+/* Italy */
+
+#Italy {
+    margin: 12.1em 16.75em;
+}
+
+#Italy #left {
+    background-color: green;
+}
+
+#Italy #center {
+    background-color: white;
+}
+
+#Italy #right {
+    background-color: red;
+}
+
+
+/* Madagascar */
+
+#Madagascar {
+    margin: 12.1em 31em;
+}
+
+#Horizontal {
+    width: 2.5em;
+    height: 6.5em;
+    border: 0.05em solid black;
+    float: left;
+    background-color: white;
+}
+
+#Vertical-1 {
+    width: 6em;
+    height: 3.25em;
+    margin-left: 2.5em;
+    border-top: 0.05em solid black;
+    border-bottom: 0.05em solid black;
+    border-right: 0.05em solid black;
+    background-color: red;
+}
+
+#Vertical-2 {
+    width: 6em;
+    height: 3.2em;
+    margin-left: 2.5em;
+    margin-top: -3.3em;
+    border-top: 0.05em solid black;
+    border-bottom: 0.05em solid black;
+    border-right: 0.05em solid black;
+    background-color: green;
+}
+
+
+/* Maldives */
+
+#Maldives {
+    margin: 12.1em 45.5em;
+}
+
+#Outer {
+    width: 8.7em;
+    height: 6.5em;
+    border: 0.05em solid black;
+    background-color: red;
+}
+
+#Inner {
+    width: 7em;
+    height: 3.5em;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    background-color: green;
+}
+
+#symbol {
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 2.5em;
+    margin-top: 1em;
+    border-radius: 100%;
+    color: white;
+    ;
+}
+
+
+/* Mexico */
+
+#Mexico {
+    margin: 22.2em 2em;
+}
+
+#Mexico #left {
+    background-color: green;
+}
+
+#Mexico #center {
+    background-color: white;
+}
+
+#Mexico #right {
+    background-color: red;
+}
+
+#mex {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 100%;
+    border: hidden;
+    margin-top: 2.1em;
+}
+
+
+/* Chad */
+
+#Chad {
+    margin: 22.2em 16.5em;
+}
+
+#Chad #left {
+    background-color: blue;
+}
+
+#Chad #center {
+    background-color: yellow;
+}
+
+#Chad #right {
+    background-color: red;
+}
+
+
+/* Botswana */
+
+#Botswana {
+    margin: 22.2em 31em;
+}
+
+#Blue {
+    width: 8.7em;
+    height: 2.5em;
+    border: solid 0.05em black;
+    background-color: skyblue;
+    /* margin-bottom: 0.15em; */
+}
+
+#White {
+    width: 9em;
+    height: 0.15em;
+    background-color: white;
+}
+
+#Black {
+    width: 9em;
+    height: 1em;
+    border: solid 0.05em black;
+    background-color: black;
+}
+
+#Blue {
+    width: 9em;
+    height: 2.5em;
+    border: solid 0.05em black;
+    background-color: skyblue;
+}
+
+
+/* Russia */
+
+#Russia {
+    margin: 22.2em 45.5em;
+}
+
+#Russia #top {
+    background-color: white;
+}
+
+#Russia #middle {
+    background-color: blue;
+}
+
+#Russia #bottom {
+    background-color: red;
+}
+
+
+/* Nigeria */
+
+#Nigeria {
+    margin: 32.3em 2em;
+}
+
+#Nigeria #left {
+    background-color: green;
+}
+
+#Nigeria #center {
+    background-color: white;
+}
+
+#Nigeria #right {
+    background-color: green;
+}
+
+
+/* Benin */
+
+#Benin {
+    margin: 32.3em 16.5em;
+}
+
+#horizontal {
+    width: 2.5em;
+    height: 6.5em;
+    border: 0.05em solid black;
+    float: left;
+    background-color: green;
+}
+
+#vertical-1 {
+    width: 6em;
+    height: 3.25em;
+    margin-left: 2.5em;
+    border-top: 0.05em solid black;
+    border-bottom: 0.05em solid black;
+    border-right: 0.05em solid black;
+    background-color: yellow;
+}
+
+#vertical-2 {
+    width: 6em;
+    height: 3.2em;
+    margin-left: 2.5em;
+    margin-top: -3.3em;
+    border-top: 0.05em solid black;
+    border-bottom: 0.05em solid black;
+    border-right: 0.05em solid black;
+    background-color: red;
+}
+
+
+/* Bangladesh */
+
+#Bangladesh {
+    margin: 32.3em 31em;
+}
+
+#outer {
+    width: 9em;
+    height: 6.5em;
+    border: 0.05em solid black;
+    background-color: green;
+}
+
+#inner {
+    width: 4em;
+    height: 4em;
+    border: 0.05em solid black;
+    border-radius: 100%;
+    background-color: red;
+    margin-top: 1.4em;
+    margin-left: 2.5em;
+}
+
+
+/* Morroco */
+
+#Morroco {
+    margin: 32.3em 45.5em;
+}
+
+#Whole {
+    width: 8.5em;
+    height: 6.5em;
+    border: solid 0.05em black;
+    background-color: red;
+}
+
+#Mor {
+    width: 2em;
+    height: 2em;
+    margin-top: 2.2em;
+    margin-left: 3.4em;
+}
