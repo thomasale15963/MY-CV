@@ -1,0 +1,84 @@
+body {
+    background-image: url(../images/abstract-doodle-blue-flower-pattern-background_80399-13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2em;
+    background-color: gray;
+    padding: 1em;
+    height: 2em;
+}
+
+#content {
+    margin-top: 1em;
+}
+
+header {
+    border-bottom: 0.03em solid black;
+    border-top: 0.03em solid black;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 660px;
+    width: 650px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 660px;
+    width: 650px;
+}
+
+div {
+    margin-top: 0.5em;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    color: purple;
+    background-color: skyblue;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
+    border-bottom: 0.01em solid black;
+    margin-left: 0em;
+}
+
+input[type="submit"] {
+    margin-bottom: 0.8em;
+    width: 7em;
+    height: 2em;
+}
+
+p {
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.8em;
+    border-bottom: 0.01em solid black;
+    border-top: 0.01em solid black;
+    background-color: gray;
+    margin-top: 1em;
+}
+
+section {
+    background-color: gray;
+}
