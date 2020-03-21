@@ -55,3 +55,8 @@ header nav a:hover {
     color: purple;
     background-color: skyblue;
 }
+
+#option a:hover {
+    color: purple;
+    background-color: gray;
+}
