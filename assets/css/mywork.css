@@ -1,0 +1,62 @@
+body {
+    background-color: skyblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2em;
+    background-color: gray;
+    padding: 1em;
+    height: 2em;
+}
+
+Sheader nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    color: purple;
+    background-color: skyblue;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
+}
+
+#option {
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+#info {
+    border: 0.03em solid black;
+    width: 24em;
+    margin-left: 30%;
+}
+
+h2 {
+    margin-left: 25%;
+}
+
+#main #info {
+    margin-top: 2em;
+    border: 0.03em solid black;
+    margin-left: 28em;
+    align-items: center;
+    padding-left: 3.8em;
+    width: 22em;
+}
+
+#footer {
+    margin-top: 3em;
+    border-bottom: 0.03em solid black;
+    border-top: 0.03em solid black;
+}
+
+p {
+    font-size: 2em;
+}
